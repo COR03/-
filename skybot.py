@@ -5,7 +5,7 @@ import random
 import openpyxl
 from json import loads
 from discord.utils import get
-from discord import 
+from discord import Message
 import os
 
 client = discor
