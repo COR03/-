@@ -5,10 +5,12 @@ import random
 import openpyxl
 from json import loads
 from discord.utils import get
-from discord import Message
+from discord import 
+import os
 
-client = discord.Client()
-token = "NzA3NTA2NTMxMDI0NzY0OTg4.XrJy2A.Z8bPbUl5tHXzDm_H5UKlcRhQW_g"
+client = discor
+access_token = os.environ["BOT_TOKEN"]
+token = "access_token"
 
 @client.event
 async def on_ready():
