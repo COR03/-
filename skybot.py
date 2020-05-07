@@ -1,14 +1,14 @@
 import discord
 import asyncio
+import os
 import time
 import random
 import openpyxl
 from json import loads
 from discord.utils import get
 from discord import Message
-import os
 
-client = discor
+client = discord.Client()
 access_token = os.environ["BOT_TOKEN"]
 token = "access_token"
 
